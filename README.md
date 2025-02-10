@@ -1,0 +1,3 @@
+org.jboss.weld.exceptions.UnsatisfiedResolutionException: WELD-001334: Unsatisfied dependencies for type String with qualifiers @ConfigProperty WELD-001475: The following beans match by type, but none have matching qualifiers:
+  - Producer Method [String] with qualifiers [@JaxRsParamQualifier @Any] declared as [[UnbackedAnnotatedMethod] @Produces @JaxRsParamQualifier public org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProviderServerRuntimeSpecifics$JaxRsParamProducer.getParameterValue(InjectionPoint, BeanManager)],
+  - Producer Method [String] with qualifiers [@BatchProperty @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Dependent @BatchProperty public com.ibm.jbatch.container.cdi.BatchProducerBean.produceStringProperty(InjectionPoint)]
